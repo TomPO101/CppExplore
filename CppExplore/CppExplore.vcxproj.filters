@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\ClassTemplates\TypeAliases.cpp">
+    <ClCompile Include="Source\GenericProgramming\ClassTemplates\ArgumentDeduction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
