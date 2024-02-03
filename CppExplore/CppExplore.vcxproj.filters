@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Ranges\SplitString.cpp">
+    <ClCompile Include="Source\GenericProgramming\VariadicTemplates\SizeOf_CompileTimeIf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
