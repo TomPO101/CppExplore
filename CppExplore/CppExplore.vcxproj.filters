@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\VariadicTemplates\SizeOf_CompileTimeIf.cpp">
+    <ClCompile Include="Source\GenericProgramming\VariadicTemplates\FoldExpressions\TraverseBinaryTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
