@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\VariadicTemplates\FoldExpressions\TraverseBinaryTree.cpp">
+    <ClCompile Include="Source\GenericProgramming\VariadicTemplates\VariadicClassTemplates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
