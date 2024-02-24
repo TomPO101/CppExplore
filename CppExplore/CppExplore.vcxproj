@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\VariadicTemplates\VariadicClassTemplates.cpp" />
+    <ClCompile Include="Source\GenericProgramming\TrickyBasics\VariableTemplates.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

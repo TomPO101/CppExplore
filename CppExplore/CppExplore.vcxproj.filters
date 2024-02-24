@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\VariadicTemplates\VariadicClassTemplates.cpp">
+    <ClCompile Include="Source\GenericProgramming\TrickyBasics\VariableTemplates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
