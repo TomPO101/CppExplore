@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\TrickyBasics\VariableTemplates.cpp">
+    <ClCompile Include="Source\GenericProgramming\MoveSemanticsAndEnable_if\PerfectForwarding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
