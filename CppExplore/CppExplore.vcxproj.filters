@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\MoveSemanticsAndEnable_if\EnableIf.cpp">
+    <ClCompile Include="Source\GenericProgramming\RefAndCref\RefAndCRef.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
