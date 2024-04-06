@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\RefAndCref\RefAndCRef.cpp">
+    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\Constexpr\IsPrimeCpp11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
