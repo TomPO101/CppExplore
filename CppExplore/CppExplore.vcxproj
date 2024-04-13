@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\Constexpr\IsPrimeCpp11.cpp" />
+    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\ExecutionPathSelection\PartialSpecialisation.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
