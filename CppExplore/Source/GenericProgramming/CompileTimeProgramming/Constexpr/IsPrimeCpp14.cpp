@@ -21,10 +21,10 @@ bool ElevenIsPrime()
 int main()
 {
     unsigned int i = 11;
-    constexpr auto res = isPrime(i); // Compile error: Will not compile in VS becuase it is not const or constepr
+    //constexpr auto res = isPrime(i); // Compile error: Will not compile in VS becuase it is not const or constepr
 
     // Compile error: You cant call a contexpr function inside a normal function at compile time
-    constexpr auto res1 = ElevenIsPrime();
+    //constexpr auto res1 = ElevenIsPrime();
 
     // You can a runtime
     auto res2 = ElevenIsPrime();
