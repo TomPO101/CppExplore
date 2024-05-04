@@ -1,4 +1,6 @@
-#include <array>
+// Compile time branch/execution path selection
+// Method 1
+// Partialy specialised classes with static members/funtions
 
 constexpr bool isPrime(unsigned int p)
 {
@@ -11,29 +13,39 @@ constexpr bool isPrime(unsigned int p)
 }
 
 template<int SZ, bool = isPrime(SZ)>
-struct Helper;
-
-// implementation if SZ is not a prime number:
-template<int SZ>
-struct Helper<SZ, false>
+struct Helper
 {
-};
+    static constexpr const char* Do();
+};    
 
-// implementation if SZ is a prime number:
 template<int SZ>
 struct Helper<SZ, true>
 {
+    static constexpr const char* Do()
+    {
+        return "Is Prime, so do this...";
+    }
 };
 
-template<typename T, unsigned int SZ>
-void foo(std::array<T, SZ> const& coll)
+template<int SZ>
+struct Helper<SZ, false>
 {
-	Helper<SZ> h; // implementation depends on whether array has prime number as size
-}
+    static constexpr const char* Do()
+    {
+        return "Is not Prime, so do this...";
+    }
+};
 
 int main()
-{
-	foo<int, 2>({1, 2});
+{       
+    // At compile time this first processes the defualt Helper becuase
+    // It has two template arguments but one of those has a defualt value (the isPrime() func)
+    // So is the only match for the Helper<2>::IsPrime to call
+    // Then it must look for any matching partial specialisations available that match the return value of isPrime
+    // It will then instanciate that at compile time instead of the default
+    // At runtime res is just the result of whatever Do funciton is a called
+    // So completely processed at compile time and no instanciation is made at run time
+    constexpr auto res = Helper<4>::Do();
 
     return 0;
 }

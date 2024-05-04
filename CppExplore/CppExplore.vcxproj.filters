@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\ExecutionPathSelection\PartialSpecialisation.cpp">
+    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\ExecutionPathSelection\EnableIf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
