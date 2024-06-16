@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\SFINAE\OverloadResolution.cpp">
+    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\Constxpr If\ConstexprIf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

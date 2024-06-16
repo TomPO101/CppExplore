@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\SFINAE\OverloadResolution.cpp" />
+    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\Constxpr If\ConstexprIf.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
