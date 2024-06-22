@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\Constxpr If\ConstexprIf.cpp" />
+    <ClCompile Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Library.cpp" />
+    <ClCompile Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Library.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

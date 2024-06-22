@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\CompileTimeProgramming\Constxpr If\ConstexprIf.cpp">
+    <ClCompile Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Library.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
