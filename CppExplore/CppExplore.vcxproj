@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Library.cpp" />
-    <ClCompile Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Source\GenericProgramming\UsingTemplates\TheInclusionModel\Library.h" />
+    <ClCompile Include="Source\GenericProgramming\Callables\MemberFunctionsAndVariadicArgs.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
