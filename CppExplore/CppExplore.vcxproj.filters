@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\Callables\MemberFunctionsAndVariadicArgs.cpp">
+    <ClCompile Include="Source\GenericProgramming\Callables\WrappingFunctionCalls.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
