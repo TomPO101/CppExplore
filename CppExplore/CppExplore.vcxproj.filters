@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\Polymorphism\StaticPolymorphism.cpp">
+    <ClCompile Include="Source\GenericProgramming\CRTP\Basic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

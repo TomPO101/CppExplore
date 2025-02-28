@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\GenericProgramming\Polymorphism\StaticPolymorphism.cpp" />
+    <ClCompile Include="Source\GenericProgramming\CRTP\Basic.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
